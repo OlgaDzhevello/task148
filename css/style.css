@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui,Helvetica,Arial,sans-serif;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+}
+    
+nav a {
+    color: #646464;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #848484;
+    text-decoration: none;
+}
+
+.main-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: url(https://unsplash.com/photos/ig-lw0Dtz34/download?force=true&w=1920) bottom no-repeat;
+    color: #f7f7f7;
+    font-size: 2rem;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #474747;
+}
+
+.сontent-wrapper {
+    line-height: 1.5em;
+    max-width: 1280px;
+    width: 80%;
+}
+
+article:nth-of-type(odd) {
+    background-color: #f4f6f6;
+}
+
+.personal { 
+    color: red;
+}
+
+.birthday {
+    background-color: #fcede4;
+
+}
+
+/*  для страницы авторизации */
+.login-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
